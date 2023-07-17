@@ -1,0 +1,95 @@
+body {
+    font-family: arial;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contener {
+    width: 850px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 844px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-items: center;
+}
+
+.score {
+    color: rgb(187, 1, 187);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 42px;
+    color: rgb(175, 175, 175);
+    text-align: center;
+    align-items: center;
+    flex: 1;
+}
+
+.reset-but-cont {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+
+.reset-but {
+    padding: 8px 35px;
+    cursor: pointer;
+    background-color: purple;
+    color: rgb(175, 175, 175);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(175, 175, 175);
+}
+
+.contener {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 90vh;
+    max-width: 844px;
+}
+
+.field {
+    border: solid 1px gray;
+    box-shadow: 0px 0px 5px rgb(179, 179, 179);
+    color: purple;
+    font-size: 190px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 280px;
+    min-height: 200px;
+}
+
+.ending-screen {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(91, 1, 91);
+    top: 300px;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.ending-button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(91, 1, 91);
+    cursor: pointer;
+    margin: 10px;
+    vertical-align: middle;
+}
